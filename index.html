@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRM Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+                <div class="buttonbar">
+                <button data-page="dashboard">Dashboard</button>
+                <button data-page="invoice">Invoice</button>
+                <button data-page="customer">Customer</button>
+                <button data-page="report">Report</button>
+                <button data-page="inventory">Inventory</button>
+                <button data-page="search">Search</button>
+                <button data-page="logout" class="logout">Logout</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="dashboard" class="page">
+            <div class="backcell">
+                <div class="text">
+                    <span>Summary</span>
+                <h2>Dashboard</h2>
+                </div>
+                    <img src="Profile 1.jpg" alt="">
+            </div>
+        </div>
+        <div id="invoice" class="page hidden">
+            <h2>Invoice</h2>
+        </div>
+        <div id="customer" class="page hidden">
+            <h2>Customer</h2>
+        </div>
+        <div id="report" class="page hidden">
+            <h2>Report</h2>
+        </div>
+        <div id="inventory" class="page hidden">
+            <h2>Inventory</h2>
+        </div>
+        <div id="search" class="page hidden">
+            <h2>Search</h2>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+
+    </script>
+</body>
+</html>
